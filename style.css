@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Header and Marquee */
+.marquee {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+/* Form Styles */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input[type="reset"] {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="reset"]:hover {
+    background-color: #c0392b;
+}
+
+/* Receipt Styles */
+#receipt {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#receipt h2 {
+    margin-top: 0;
+}
+
+#receipt p {
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+footer h4 {
+    margin: 5px 0;
+}
+
+footer address {
+    font-style: normal;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Multi-Color Section */
+.multi {
+    margin: 20px 0;
+}
+
+.multi form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.multi fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.multi label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.multi input[type="checkbox"] {
+    margin-right: 5px;
+}

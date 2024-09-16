@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn.shopify.com/s/files/1/0151/1081/products/T-SHIRT-LOGO-TEMPLATES-16_2000x.jpg?v=1525930883">
+    <link rel="stylesheet" href="style.css">
+    <title>T-shirt Website</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <figure>
+        <img src="https://cdn.shopify.com/s/files/1/0151/1081/products/T-SHIRT-LOGO-TEMPLATES-16_2000x.jpg?v=1525930883" alt="Logo" height="64px" width="64px">
+    </figure>
+    
+    <div>
+        <hr>
+        <div class="marquee"><marquee bgcolor="aqua" height="20px">50% off on any t-shirt</marquee></div>
+        <br>
+        <hr>
+        <section>
+            <h1 align="center">Single Colour</h1>
+            <div>
+                <center>
+                    <form id="orderDetails" action="/" method="post">
+                        <fieldset>
+                            <legend><b><i>Order Details</i></b></legend>
+                            <label for="tagline">Tagline on the Shirt:</label>
+                            <input type="text" id="tagline" name="tagline" placeholder="Enter your tagline"><br><br>
+
+                            <label for="color">Color:</label>
+                            <select id="color" name="color">
+                                <option value="Default">White</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Red">Red</option>
+                                <option value="Black">Black</option>
+                                <option value="Grey">Grey</option>
+                                <option value="Yellow">Yellow</option>
+                                <option value="Green">Green</option>
+                                <option value="Pink">Pink</option>
+                            </select><br><br>
+
+                            <label for="size">Size:</label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select><br><br>
+
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" id="quantity" name="quantity" min="1"><br><br>
+
+                            <label for="deliveryDate">Delivery Date:</label>
+                            <input type="date" id="deliveryDate" name="deliveryDate"><br><br>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><strong><em>Delivery Details</em></strong></legend>
+                            <label for="Name">Name:</label>
+                            <input type="text" id="Name" name="Name"><br><br>
+
+                            <label for="address">Address:</label>
+                            <textarea id="address" name="address" rows="4" cols="30" placeholder="Enter recipient's address"></textarea><br><br>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address"><br><br>
+
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone"><br><br>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Additional Comments</legend>
+                            <label for="comments">Additional Comments:</label>
+                            <textarea id="comments" name="comments" rows="4" cols="28" placeholder="Any special instructions or comments"></textarea>
+                        </fieldset>
+
+                        <button type="submit">Place Order</button>
+                        <input type="reset" value="Reset">
+                    </form>
+                    
+                </center>
+            </div>
+        </section>
+
+        <section class="multi">
+            <h1 align="center">Multi-colour</h1>
+            <div>
+                <form action="/" method="post" id="multicolorform">
+                    <fieldset>
+                        <legend>Select Colors:</legend>
+                        <label>
+                            <input type="checkbox" name="colors" value="red"> Red
+                        </label>
+                        <label>
+                            <input type="checkbox" name="colors" value="blue"> Blue
+                        </label>
+                        <label>
+                            <input type="checkbox" name="colors" value="green"> Green
+                        </label>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <center>
+        <div id="receipt"></div></center>
+
+        <footer>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <h2>Address</h2>
+                                    <h4>
+                                        <address>
+                                            Hashu Advani Shopping Complex,<br>
+                                            Collector's Colony<br>
+                                            Chembur, Mumbai, Maharashtra<br>
+                                            400074
+                                        </address>
+                                    </h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td>
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <h2>Social links</h2>
+                                    <h4>
+                                        <a href="#">Facebook</a><br>
+                                        <a href="#">Twitter</a><br>
+                                        <a href="#">Instagram</a><br>
+                                        <a href="#">LinkedIn</a>
+                                    </h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
+</html>
